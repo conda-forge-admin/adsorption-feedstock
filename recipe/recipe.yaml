@@ -22,14 +22,15 @@ requirements:
     - uv-build
   run:
     - python >=${{ python_min }}
-    - array-api-compat
+    - arrayff >=0.0.2
     - ase
-    - graphatoms >=1.1
+    - graphatoms >=3.0
     - hydra-core >=1.1
-    - nequip >=0.16.1
-    - pytorch
-    - ray-default >=2.50
-    - ray-tune >=2.50
+    - joblib
+    - numpy
+    - pyyaml >=6
+    - scikit-learn
+    - scipy
     - typing-extensions
 
 tests:
