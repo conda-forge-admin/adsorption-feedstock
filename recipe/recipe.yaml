@@ -29,6 +29,7 @@ requirements:
     - joblib
     - numpy
     - pyyaml >=6
+    - rdkit
     - scikit-learn
     - scipy
     - typing-extensions
